@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>Emine Merve LEVENT</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="counter.js"> </script>
+	</head>
+	<body>
+		<div id="counter"/>			
+			<table >
+			<tr class="tex">
+				<td>Hour</td>
+				<td>Minute</td>
+				<td>Second</td>
+			</tr>
+			<tr >
+				<td>
+					<input type="number" id = "hour" class="ind" value="10" readonly/>
+				</td>
+				<td>
+					<input type="number" id="minute" class="ind" value="0" readonly/>
+				</td>
+				<td>
+					<input type="number" id="second" class="ind" value="0" readonly/>
+				</td>
+			</tr>
+			<tr>
+				<td><br>
+					<input type="button" id ="hourinc" value="+" class="btn"/>
+					<input type="button" id="hourdec" value="- " class="btn"/>
+				</td>
+				<td><br>
+					<input type="button" id="minuteinc" value="+" class="btn"/>
+					<input type="button" id="minutedec" value="- " class="btn"/>
+				</td>
+				<td><br>
+					<input type="button" id="secondinc" value="+" class="btn"/>
+					<input type="button" id="seconddec" value="- " class="btn"/>
+				</td>
+			</tr>
+			<script src="counter.js"> </script>
+
+			</table>
+		</div>
+		
+		
+		<div id="data"  href="style.css">
+			<table >
+				<tr> 
+					<input type="text" id = "time" class="con" value="" readonly/>
+				</tr>
+				<tr>
+					<td class="tex">EUR</td>
+					<td>
+						<input type="text" id = "eur" class="eur" value="" readonly/>
+					</td>
+					<td>
+						<input type="text" id = "tex1" class="con" value="" readonly/>
+					</td>
+				</tr>
+				<tr>
+					<td class="tex">GBP</td>
+					<td>
+						<input type="text" id = "gbp" class="gbp" value="" readonly/>
+					</td>
+					<td>
+						<input type="text" id = "tex2" class="con" value="" readonly/>
+					</td>
+				</tr>
+				<tr>
+					<td class="tex">USD</td>
+					<td>
+						<input type="text" id = "usd" class="usd" value="" readonly/>
+					</td>
+					<td>
+						<input type="text" id = "tex3" class="con" value="" readonly/>
+					</td>
+				</tr>
+				<script src="btc.js"></script>
+			</table>
+		</div>
+	</body>
+</html>
